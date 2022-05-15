@@ -36,7 +36,7 @@ button:hover{
 
 }
 
-container{
+.container{
 
 	max-width: 1400px;
 	margin: auto;
@@ -52,6 +52,13 @@ header .logo{
 	font-size: 1,6em;
 
 }
+
+header .logo p{
+
+	font-size: 2em;
+
+}
+
 header .container{
 
 	display: flex;
@@ -94,6 +101,54 @@ header a:hover{
 	height: 90vh;
 	color: white;
 	background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5))
-	,url("");
+	,url("https://i.blogs.es/6fd5d2/matrix1/450_1000.jpg");
+
+}
+
+#somos-genius{
+
+	justify-content: center;
+	text-align: center;
+	padding: 0;
+
+}
+
+#somos-genius h2{
+
+	font-family: anton;
+	font-size: 30px;
+	color:rgba(5, 96, 49, 0.485);
+
+}
+
+#somos-genius .container{
+
+	padding: 200px;
+	background: radial-gradient( rgba(88, 147, 0, 0.759), white);
+
+}
+
+#nuestros-cursos h2{
+
+	text-align: center;
+	margin-top: 100px;
+
+}
+
+.container_carta{
+
+	display: flex;
+
+}
+
+#nuestros-cursos h3{
+
+	display: inline;
+
+}
+.container_carta div{
+
+	padding: 50px 60px;
+	margin: 20px 0px;
 
 }
