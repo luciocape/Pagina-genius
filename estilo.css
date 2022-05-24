@@ -52,10 +52,17 @@ header .logo{
 	font-size: 1,6em;
 
 }
+header .logo .img-logo:hover{
+
+	transition: 1s;
+	display: none;
+
+}
 
 header .logo p{
 
 	font-size: 2em;
+	display: inline;
 
 }
 
@@ -138,6 +145,7 @@ header a:hover{
 .container_carta{
 
 	display: flex;
+	justify-content: space-between;
 
 }
 
@@ -152,3 +160,4 @@ header a:hover{
 	margin: 20px 0px;
 
 }
+
